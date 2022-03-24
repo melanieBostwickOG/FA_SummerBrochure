@@ -132,6 +132,10 @@ span {
   margin-right: 7px;
 }
 
+.camp-bold {
+	font-family: GothamBold !important;
+}
+
 /* pricing */
 
 .TwOFF {
@@ -283,9 +287,6 @@ h6 {
     order: 1;
   }
 
-  .camp-topics {
-	text-align: center;
-  }
 }
 
 /* FOOTER */
