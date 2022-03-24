@@ -136,6 +136,11 @@ span {
 	font-family: GothamBold !important;
 }
 
+li {
+	display: block;
+	visibility: visible;
+}
+
 /* pricing */
 
 .TwOFF {
