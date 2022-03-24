@@ -13951,8 +13951,8 @@ body:not(.device-touch) #gotoTop {
 
 #footer {
 	position: relative;
-	background-color: #EEE;
-	border-top: 5px solid rgba(0,0,0,0.2);
+	background-color: #812990;
+	border-top:  #812990;
 }
 
 @media (min-width: 992px) {
@@ -13982,9 +13982,10 @@ body:not(.device-touch) #gotoTop {
 
 #copyrights {
 	padding: 40px 0;
-	background-color: #DDD;
+	background-color:  #812990;
 	font-size: 0.875rem;
 	line-height: 1.8;
+	color: #ffffff;
 }
 
 #copyrights i.footer-icon {
@@ -13999,12 +14000,12 @@ body:not(.device-touch) #gotoTop {
 .copyright-links a {
 	display: inline-block;
 	margin: 0 3px;
-	color: #333;
+	color: #ffffff;
 	border-bottom: 1px dotted #444;
 }
 
 .copyright-links a:hover {
-	color: #555;
+	color: #ffffff;
 	border-bottom: 1px solid #666;
 }
 
