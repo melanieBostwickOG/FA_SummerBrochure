@@ -6,358 +6,318 @@
 -----------------------------------------------------------------*/
 /* Menu */
 
-.menu-link:focus, .menu-link:active, .menu-link:visited, .menu-link:link {
-	color: #ffffff !important;
-  }
-  
-.menu-link:hover  {
-	color: #ffc81d !important;
-  }
+.menu-link:focus,
+.menu-link:active,
+.menu-link:visited,
+.menu-link:link {
+  color: #ffffff !important;
+}
 
+.menu-link:hover {
+  color: #ffc81d !important;
+}
 
 /* FONTS */
 
 @font-face {
-    font-family: EvelethCleanRegular;
-    src: url("../fonts/Eveleth\ Clean\ Regular.otf") format("opentype");
+  font-family: EvelethCleanRegular;
+  src: url("../fonts/Eveleth\ Clean\ Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family: EvelethCleanThin;
-    src: url("../fonts/Eveleth\ Clean\ Thin.otf") format("opentype");
+  font-family: EvelethCleanThin;
+  src: url("../fonts/Eveleth\ Clean\ Thin.otf") format("opentype");
 }
 
 @font-face {
-    font-family: GothamBold;
-    src: url("../fonts/GothamBold.ttf") format("truetype");
+  font-family: GothamBold;
+  src: url("../fonts/GothamBold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: GothamBook;
-    src: url("../fonts/GothamBook.ttf") format("truetype");
+  font-family: GothamBook;
+  src: url("../fonts/GothamBook.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: GothamMedium;
-    src: url("../fonts/GothamMedium.ttf") format("truetype");
+  font-family: GothamMedium;
+  src: url("../fonts/GothamMedium.ttf") format("truetype");
 }
 
 /* Header Text */
 
 .home-text-h2 {
-	margin: 0 10 0;
-	font-family: EvelethCleanRegular;
-	font-size: 2.8em;
-	line-height: 1em;
-	text-align: center;
+  margin: 0 10 0;
+  font-family: EvelethCleanRegular;
+  font-size: 2.8em;
+  line-height: 1em;
+  text-align: center;
 }
 
 .home-text-h3 {
-	margin: 0 10 0;
-	font-family: EvelethCleanThin;
-	font-size: 1.4rem;
-	text-align: center;
+  margin: 0 10 0;
+  font-family: EvelethCleanThin;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 h4 {
-	font-family: GothamMedium;
-	text-transform: capitalize !important;
-	color: #812990 !important;
-	
+  font-family: GothamMedium;
+  text-transform: capitalize !important;
+  color: #812990 !important;
 }
 
 span {
-	font-family: 'GothamBook', sans-serif;
+  font-family: "GothamBook", sans-serif;
 }
 
 /* Image breaks */
 
 .image-breaks {
-	width: 100%;
-	
+  width: 100%;
 }
 
 /* Summer Camp Section */
 
 #camp-deal {
-	font-family: GothamBold;
-	font-size: 1.1rem;
+  font-family: GothamBold;
+  font-size: 1.1rem;
 }
 
 /* scheduling */
 
 #scheduling-options {
-	margin-top: 50px; 
-	margin-left: 20px;
-
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 #p-schedule-head {
-	margin-left: 0; 
-	margin-top: 30px; 
-	margin-bottom: 0px;
-	font-family: GothamBold; 
-	color: #404041;
+  margin-left: 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-family: GothamBold;
+  color: #404041;
 }
 
 #p-schedule-text {
-	margin-top: 10px;
-	margin-left: 0; 
+  margin-top: 10px;
+  margin-left: 0;
 }
 
-
 #p-schedule-disclaimer {
-	margin-left: 0; 
-	margin-top: 30px; 
-	font-style: italic; 
-	font-size: .8em;
+  margin-left: 0;
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 0.8em;
 }
 
 #scheduling-options-image {
-	height:100%;
-  	display: flex;
-  	align-items: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
- #catch-up-text  {
-	margin-left: 0; 
-	margin-top: 30px; 
-	margin-bottom: 0px;
-	color: #404041;
+#catch-up-text {
+  margin-left: 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #404041;
 }
 
 /* Checkmark Icon */
 
 .icon {
-    width:13px;
-	height:13px;
-	margin-right:7px;
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
 }
 
 /* pricing */
 
 h6 {
-	font-family: GothamMedium;
-	text-transform: capitalize !important;
-	
+  font-family: GothamMedium;
+  text-transform: capitalize !important;
 }
 
-.divider{
-    color:#ccc;
-    width:90%;
-    margin:10px auto;
-    overflow:hidden;
-    text-align:center;   
+.divider {
+  color: #ccc;
+  width: 90%;
+  margin: 10px auto;
+  overflow: hidden;
+  text-align: center;
 }
 
-.divider:before, .divider:after{
-    content:"";
-    vertical-align:middle;
-    display:inline-block;
-    width:50%;
-	border-bottom:7px dotted;
-	opacity: 100%; 
-	background-color: #ffffff;
-    margin:-15px 2% 0 -55%;
+.divider:before,
+.divider:after {
+  content: "";
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+  border-bottom: 7px dotted;
+  opacity: 100%;
+  background-color: #ffffff;
+  margin: -15px 2% 0 -55%;
 }
-.divider:after{
-    margin:-15px -55% 0 2%;
+.divider:after {
+  margin: -15px -55% 0 2%;
 }
 
 h6 {
-	display:inline-block;
-	vertical-align:middle;
-	padding-top: 10px;
-	}
-
-.price {
-	color: #404041 !important;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
 }
 
-
+.price {
+  color: #404041 !important;
+}
 
 /* price boxes */
 
 .pricing-highlight-purple {
-	background-color: #efebf0;
-	
+  background-color: #efebf0;
 }
 
-
 .pricing-highlight-green {
-	background-color: #f2f3eb;
-	
+  background-color: #f2f3eb;
 }
 
 /* buttons */
 
 .btn:focus {
-	outline: none;
- 	box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .call-btn {
-	display: block;
+  display: block;
 }
 
 .credit-btn {
-	width: 250px;; 
-	background-color: #812990; 
-	color: #ffffff;
-	margin-top: 10px;
-	
+  width: 250px;
+  background-color: #812990;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
 .credit-btn:hover {
-	background-color: #601d6c; 
-	color: #ffffff;
-	
+  background-color: #601d6c;
+  color: #ffffff;
 }
 
 .tutor-btn {
-	width: 250px;; 
-	background-color: #b6c929; 
-	color: #ffffff;
-	margin-top: 10px;
-	
+  width: 250px;
+  background-color: #b6c929;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
 .tutor-btn:hover {
-	background-color: #a0b123; 
-	color: #ffffff;
-	
+  background-color: #a0b123;
+  color: #ffffff;
 }
 
 .camps-btn {
-	width: 250px;; 
-	background-color: #faa61a; 
-	color: #ffffff;
-	margin-top: 10px;
-	
+  width: 250px;
+  background-color: #faa61a;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
 .camps-btn:hover {
-	background-color: #da8f13; 
-	color: #ffffff;
-	
+  background-color: #da8f13;
+  color: #ffffff;
 }
 
-
-
-
 @media (max-width: 986px) {
+  .tel-number {
+    display: none;
+  }
 
- .tel-number {
-	 display: none;
- }
+  #scheduling-options {
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
+  h4 {
+    text-align: center;
+  }
 
-	#scheduling-options {
-		margin-top: -20px; 
-		margin-left: 20px;
-		margin-right: 20px;
-	
-	}
+  hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	h4 {
-		text-align: center;
+  #scheduling-options-image {
+    margin-top: 30px;
+  }
 
-	}
+  #p-schedule-head,
+  #catch-up-text {
+    text-align: center;
+    margin: 30px 0 0;
+  }
 
-	hr {
-		display: block;
-    	margin-left: auto;
-   		margin-right: auto
-   		
+  #p-schedule-text {
+    text-align: center;
+    margin: 10px 0 0;
+  }
 
-	}
+  #p-schedule-disclaimer {
+    text-align: center;
+    margin: 30px 0 0;
+  }
 
-	#scheduling-options-image {
-		margin-top: 30px; 
-	}
+  .content-change {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-change div:first-child {
+    order: 1;
+  }
 
-	#p-schedule-head, #catch-up-text {
-		text-align: center;
-		margin: 30px 0 0;
-
-	}
-	
-	#p-schedule-text {
-		text-align: center;
-		margin: 10px 0 0;
-
-	}
-	
-	
-	#p-schedule-disclaimer {
-		text-align: center;
-		margin: 30px 0 0;
-		
-	}
-
-	.content-change {
-		display: flex;
-		flex-direction: column;
-	  }
-	  .content-change div:first-child {
-		order: 1;
-	  }
-
-	  #camp-topics {
-		  margin-bottom:30px;
-	  }
-
-
-	
-	
+  #camp-topics {
+    margin-bottom: 30px;
+  }
 }
 
 /* FOOTER */
 
 #footer-logo {
-	width: 60%;
+  width: 60%;
 }
 
 @media (max-width: 986px) {
+  /* Image breaks */
 
-	/* Image breaks */
+  .image-breaks {
+    padding-top: -30px;
+  }
 
-.image-breaks {
-	padding-top: -30px;
-	
+  #footer-logo {
+    width: 100%;
+  }
 }
-
-
-	#footer-logo {
-		width: 100%;
-	}
-
-
-	
-}
-
 
 @media (max-width: 992px) {
+  #page-menu {
+    display: none;
+  }
 
-	#page-menu {
-		display: none;
-	}
+  .home-text-h2 {
+    margin: 0 20 0;
+    font-family: EvelethCleanRegular;
+    font-size: 2.4em;
+    line-height: 1em;
+    text-align: center;
+  }
 
-
-	.home-text-h2 {
-		margin: 0 20 0;
-		font-family: EvelethCleanRegular;
-		font-size: 2.4em;
-		line-height: 1em;
-		text-align: center;
-	}
-	
-	.home-text-h3 {
-		margin: 0 20 0;
-		font-family: EvelethCleanThin;
-		font-size: 1rem;
-		text-align: center;
-	}
-	
-	
+  .home-text-h3 {
+    margin: 0 20 0;
+    font-family: EvelethCleanThin;
+    font-size: 1rem;
+    text-align: center;
+  }
 }
