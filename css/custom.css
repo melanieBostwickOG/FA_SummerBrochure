@@ -287,3 +287,18 @@ h6 {
 	
 	
 }
+
+/* FOOTER */
+
+#logo {
+	width: 60%;
+}
+
+@media (max-width: 986px) {
+
+	#logo {
+		width: 100%;
+	}
+	
+	
+}
