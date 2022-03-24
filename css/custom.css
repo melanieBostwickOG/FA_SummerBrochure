@@ -6,10 +6,10 @@
 -----------------------------------------------------------------*/
 /* Menu */
 
-.menu-link:focus, .menu-link:active, .menu-link:visited {
+.menu-link:focus, .menu-link:active, .menu-link:visited, .menu-link:link {
 	color: #ffffff !important;
   }
-
+  
 .menu-link:hover  {
 	color: #ffc81d !important;
   }
