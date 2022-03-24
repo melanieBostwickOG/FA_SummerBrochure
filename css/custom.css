@@ -290,13 +290,13 @@ h6 {
 
 /* FOOTER */
 
-#logo {
+#footer-logo {
 	width: 60%;
 }
 
 @media (max-width: 986px) {
 
-	#logo {
+	#footer-logo {
 		width: 100%;
 	}
 	
