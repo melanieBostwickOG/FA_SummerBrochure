@@ -1,63 +1,4 @@
-/* FONTS */
 
-@font-face {
-    font-family: EvelethCleanRegular;
-    src: url("fonts/Eveleth\ Clean\ Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: EvelethCleanThin;
-    src: url("fonts/Eveleth\ Clean\ Thin.otf") format("opentype");
-}
-
-@font-face {
-    font-family: GothamBold;
-    src: url("fonts/GothamBold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: GothamBook;
-    src: url("fonts/GothamBook.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: GothamMedium;
-    src: url("fonts/GothamMedium.ttf") format("truetype");
-}
-
-/* Header Text */
-
-.home-text-h2 {
-	margin: 0 0 5px 0;
-}
-
-.home-text-h3 {
-	margin: 0 0 10px 0;
-}
-
-/* Image breaks */
-
-.image-breaks {
-	width: 100%;
-	
-}
-
-/* Summer Camp Section */
-
-#camp-deal {
-	font-family: GothamBold;
-	font-size: 1.1rem;
-}
-
-
-
-/* @media (max-width: 768px) {
-	#page-menu {
-		visibility: hidden
-		
-	}
-	
-} */
 
 /*-----------------------------------------------------------------------------------
 
@@ -344,7 +285,7 @@ fieldset,
 form {margin: 30px 10% 30px 10%;
 	font-family: 'GothamBook', sans-serif;}
 
-small { font-family: 'GothamBook', sans-serif; }
+small, .page-menu-item { font-family: 'Lato', sans-serif; }
 
 
 @media (max-width: 1200px) {

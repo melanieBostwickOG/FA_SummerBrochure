@@ -4,5 +4,81 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
+/* Menu */
+
+.menu-link:focus, .menu-link:active, .menu-link:visited {
+	color: #ffffff !important;
+  }
+
+.menu-link:hover  {
+	color: #ffc81d !important;
+  }
 
 
+/* FONTS */
+
+@font-face {
+    font-family: EvelethCleanRegular;
+    src: url("../fonts/Eveleth\ Clean\ Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: EvelethCleanThin;
+    src: url("../fonts/Eveleth\ Clean\ Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url("../fonts/GothamBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url("../fonts/GothamBook.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url("../fonts/GothamMedium.ttf") format("truetype");
+}
+
+/* Header Text */
+
+.home-text-h2 {
+	margin: 0 0 5px 0;
+}
+
+.home-text-h3 {
+	margin: 0 0 10px 0;
+}
+
+h4 {
+	font-family: GothamMedium;
+	text-transform: capitalize !important;
+	color: #812990 !important;
+	
+}
+
+/* Image breaks */
+
+.image-breaks {
+	width: 100%;
+	
+}
+
+/* Summer Camp Section */
+
+#camp-deal {
+	font-family: GothamBold;
+	font-size: 1.1rem;
+}
+
+
+
+/* @media (max-width: 768px) {
+	#page-menu {
+		visibility: hidden
+		
+	}
+	
+} */
