@@ -45,11 +45,18 @@
 /* Header Text */
 
 .home-text-h2 {
-	margin: 0 0 5px 0;
+	margin: 0 10 0;
+	font-family: EvelethCleanRegular;
+	font-size: 2.8em;
+	line-height: 1em;
+	text-align: center;
 }
 
 .home-text-h3 {
-	margin: 0 0 10px 0;
+	margin: 0 10 0;
+	font-family: EvelethCleanThin;
+	font-size: 1.4rem;
+	text-align: center;
 }
 
 h4 {
@@ -308,6 +315,22 @@ h6 {
 
 	#page-menu {
 		visibility: hidden;
+	}
+
+
+	.home-text-h2 {
+		margin: 0 20 0;
+		font-family: EvelethCleanRegular;
+		font-size: 2.4em;
+		line-height: 1em;
+		text-align: center;
+	}
+	
+	.home-text-h3 {
+		margin: 0 20 0;
+		font-family: EvelethCleanThin;
+		font-size: 1rem;
+		text-align: center;
 	}
 	
 	
