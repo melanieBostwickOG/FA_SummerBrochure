@@ -238,7 +238,7 @@ h4 { font-size: 18px; }
 
 h5 { font-size: 0.875rem; }
 
-h6 { font-size: 12px; }
+h6 { font-size: 22px; }
 
 h4 { font-weight: 600; }
 
@@ -11701,9 +11701,8 @@ body:not(.device-touch) .clients-grid .grid-item a {
 .pricing-box {
 	position: relative;
 	overflow: hidden;
-	border: 1px solid rgba(0,0,0,0.075);
 	border-radius: 3px;
-	background-color: #FFF;
+
 }
 
 
@@ -11712,8 +11711,6 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .pricing-title {
 	padding: 1rem 0;
-	background-color: #F9F9F9;
-	border-bottom: 1px solid rgba(0,0,0,0.075);
 	letter-spacing: 1px;
 }
 
@@ -13696,7 +13693,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #812990; }
+#gotoTop:hover { background-color: #ffc81d; }
 
 
 /* ----------------------------------------------------------------

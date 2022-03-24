@@ -127,6 +127,105 @@ span {
 	margin-right:7px;
 }
 
+/* pricing */
+
+h6 {
+	font-family: GothamMedium;
+	text-transform: capitalize !important;
+	
+}
+
+.divider{
+    color:#ccc;
+    width:90%;
+    margin:10px auto;
+    overflow:hidden;
+    text-align:center;   
+}
+
+.divider:before, .divider:after{
+    content:"";
+    vertical-align:middle;
+    display:inline-block;
+    width:50%;
+	border-bottom:7px dotted;
+	opacity: 100%; 
+	background-color: #ffffff;
+    margin:-15px 2% 0 -55%;
+}
+.divider:after{
+    margin:-15px -55% 0 2%;
+}
+
+h6 {
+	display:inline-block;
+	vertical-align:middle;
+	padding-top: 10px;
+	}
+
+.price {
+	color: #404041 !important;
+}
+
+
+
+/* price boxes */
+
+.pricing-highlight-purple {
+	background-color: #efebf0;
+	
+}
+
+
+.pricing-highlight-green {
+	background-color: #f2f3eb;
+	
+}
+
+/* buttons */
+
+.credit-btn {
+	width: 250px;; 
+	background-color: #812990; 
+	color: #ffffff;
+	margin-top: 10px;
+	
+}
+
+.credit-btn:hover {
+	background-color: #601d6c; 
+	color: #ffffff;
+	
+}
+
+.tutor-btn {
+	width: 250px;; 
+	background-color: #b6c929; 
+	color: #ffffff;
+	margin-top: 10px;
+	
+}
+
+.tutor-btn:hover {
+	background-color: #a0b123; 
+	color: #ffffff;
+	
+}
+
+.camps-btn {
+	width: 250px;; 
+	background-color: #faa61a; 
+	color: #ffffff;
+	margin-top: 10px;
+	
+}
+
+.camps-btn:hover {
+	background-color: #da8f13; 
+	color: #ffffff;
+	
+}
+
 
 
 
