@@ -77,14 +77,15 @@ span {
 /* Container Content Blocks */
 
 .content-block {
-	padding-top: 30px;
-	padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Image breaks */
 
 .image-breaks {
   width: 100%;
+  margin-bottom: 20px;;
 }
 
 /* Summer Camp Section */
@@ -128,7 +129,7 @@ span {
 }
 
 #catch-up-text {
-margin: 0 0 0 0;
+  margin: 0 0 0 0;
   color: #404041;
 }
 
@@ -141,39 +142,40 @@ margin: 0 0 0 0;
 }
 
 .camp-bold {
-	font-family: GothamBold !important;
+  font-family: GothamBold !important;
 }
 
 .camp-regular {
-	font-family: GothamBook !important;
+  font-family: GothamBook !important;
 }
 
 .camp-topics-list {
-	display: block;
-	visibility: visible;
-	font-family: GothamBook;
-	line-height: 1.5em;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  display: block;
+  visibility: visible;
+  font-family: GothamBook;
+  line-height: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* pricing */
 
 .pricing-subhead {
-	display: block; 
-	font-size: 1.2em; 
-	margin-top: 30px;
+  display: block;
+  font-size: 1.2em;
+  margin-top: 30px;
 }
 
 .TwOFF {
-	font-family: GothamBold;
-
+  font-family: GothamBold;
 }
 
 h6 {
   font-family: GothamMedium;
   text-transform: capitalize !important;
 }
+
+/* Dotted Divider */
 
 .divider {
   color: #ccc;
@@ -272,7 +274,7 @@ h6 {
 
   #scheduling-options {
     margin: 0 20 0;
-	text-align: center;
+    text-align: center;
   }
 
   h4 {
@@ -293,15 +295,15 @@ h6 {
   #catch-up-text {
     text-align: center;
     margin: 30px 0 0;
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #p-schedule-text {
     text-align: center;
     margin: 10px 0 0;
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #p-schedule-disclaimer {
@@ -316,7 +318,6 @@ h6 {
   .content-change div:first-child {
     order: 1;
   }
-
 }
 
 /* FOOTER */
@@ -329,7 +330,7 @@ h6 {
   /* Image breaks */
 
   .image-breaks {
-    padding-top: -300px;
+    padding-top: -30px;
   }
 
   #footer-logo {
@@ -338,13 +339,14 @@ h6 {
 }
 
 @media (max-width: 992px) {
+
   #page-menu {
     display: none;
   }
 
   .sm-hr {
-	  margin: auto !important;
-	  margin-bottom: 30px !important;
+    margin: auto !important;
+    margin-bottom: 30px !important;
   }
 
   .home-text-h2 {
