@@ -194,10 +194,10 @@ h6 {
   border-bottom: 7px dotted;
   opacity: 100%;
   background-color: #ffffff;
-  margin:  2% 0 -55%;
+  margin: 0 2% 0 -55%;
 }
 .divider:after {
-  margin: -15px -55% 0 2%;
+  margin: 0 -55% 0 2%;
 }
 
 h6 {
@@ -354,7 +354,7 @@ h6 {
 
   #slider {
     margin-top: 100px !important;
-    /* height: 540px !important; */
+    height: 570px !important;
   }
 
   #page-menu {
