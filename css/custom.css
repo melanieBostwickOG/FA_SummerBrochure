@@ -88,6 +88,50 @@ span {
   margin-bottom: 10px;
 }
 
+/*vertical dot line breaks */
+
+#vertical-dot-break {
+  border-left: 7px dotted;
+  opacity: 100%;
+  color: #ffc40d;
+  background-color: #fff;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.5px;
+  top: 0;
+}
+
+/* title dot break */
+#title-dot-break-short {
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 7px dotted;
+  opacity: 100%;
+  color: #ffc40d;
+  background-color: #fff;
+  height: 1px;
+  margin-bottom: 50px;
+  width: 20%;
+  justify-content: center;
+  display: block;
+}
+
+
+#title-dot-break-long {
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 7px dotted;
+  opacity: 100%;
+  color: #ffc40d;
+  background-color: #fff;
+  height: 1px;
+  margin-bottom: 50px;
+  width: 23%;
+  justify-content: center;
+  display: block;
+}
+
 /* Summer Camp Section */
 
 #camp-deal {
@@ -268,6 +312,41 @@ h6 {
 }
 
 @media (max-width: 986px) {
+  /* vertical dot line break */
+
+  #vertical-dot-break {
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 7px dotted;
+    opacity: 100%;
+    color: #ffc40d;
+    background-color: #fff;
+    height: 7px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    right: 0%;
+  }
+
+  /* title dot break */
+#title-dot-break-short {
+  width: 68%;
+
+}
+
+#title-dot-break-long {
+  width: 83%;
+
+}
+
+
+  #accelerate-box,
+  #skills-box {
+    margin-top: 70px;
+  }
+
+  /* phone number hide */
   .tel-number {
     display: none;
   }
@@ -358,7 +437,7 @@ h6 {
   }
 
   #page-menu {
-    display:none;
+    display: none;
   }
 
   .sm-hr {
