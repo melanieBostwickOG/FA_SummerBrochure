@@ -31,17 +31,18 @@
 
 @font-face {
   font-family: GothamBold;
-  src: url("../fonts/GothamBold.ttf") format("truetype");
+  src: url("../fonts/GothamPro-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: GothamBook;
-  src: url("../fonts/GothamBook.ttf") format("truetype");
+  src: url("../fonts/GothamPro.woff") format("woff");
+
 }
 
 @font-face {
   font-family: GothamMedium;
-  src: url("../fonts/GothamMedium.ttf") format("truetype");
+  src: url("../fonts/GothamPro-Medium.woff") format("woff");
 }
 
 /* Header Text */
@@ -85,7 +86,7 @@ span {
 
 .image-breaks {
   width: 100%;
-  margin-bottom: 20px;;
+  margin-bottom: 10px;;
 }
 
 /* Summer Camp Section */
@@ -317,6 +318,11 @@ h6 {
   }
   .content-change div:first-child {
     order: 1;
+  }
+
+  .camp-topics-container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
